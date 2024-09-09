@@ -10,11 +10,18 @@ import food
     
 
 def main():
+    # pygame.init() 导入 pygame 包含所有可用的模块。调用 pygame.init ()初始化这些模块中的每一个。
     pygame.init()
+    # pygame.mixer.init  —  初始化混音器模块  pygame.mixer
+    # 用于加载和播放声音的pygame模块
     pygame.mixer.init()
     
     resolution = 630, 630
+    # pygame.display.set_mode()
+    # 功能：初始化显示窗口或屏幕
     screen = pygame.display.set_mode(resolution)
+    # pygame.display.get_caption()
+    # 功能：获取当前窗口标题
     pygame.display.set_caption("Tank War ")
     
     # 加载图片,音乐,音效.

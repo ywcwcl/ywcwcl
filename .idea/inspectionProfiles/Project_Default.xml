@@ -1,0 +1,48 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.10" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="训练自己的语义分割网络.imtransform" />
+          <option value="训练自己的语义分割网络.data_root" />
+          <option value="训练自己的语义分割网络.FCN8s" />
+          <option value="训练自己的语义分割网络.fcn8s" />
+          <option value="训练自己的语义分割网络.train_model" />
+          <option value="训练自己的语义分割网络.cm2lbl" />
+          <option value="训练自己的语义分割网络.namedtuple" />
+          <option value="训练自己的语义分割网络.cv2" />
+          <option value="训练自己的语义分割网络.csv" />
+          <option value="训练自己的语义分割网络.load_model" />
+          <option value="训练自己的语义分割网络.conv2" />
+          <option value="训练自己的语义分割网络.axes" />
+          <option value="训练自己的语义分割网络.random" />
+          <option value="训练自己的语义分割网络.img_area_list" />
+          <option value="试错.params" />
+          <option value="试错.Falsetrain_dataset" />
+          <option value="试错.TrainOption" />
+          <option value="第五次训练.Mydataset" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
